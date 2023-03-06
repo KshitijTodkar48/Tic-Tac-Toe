@@ -1,0 +1,15 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.App > span{
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(20, 39, 245);
+    font-family: Londrina Shadow;
+}

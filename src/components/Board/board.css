@@ -1,0 +1,36 @@
+.board-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.board-container > h1{
+    text-align: center;
+    font-family: Rubik;
+}
+
+.board-container > h2{
+    text-align: center;
+    font-family: Rubik;
+}
+
+.board-container > button{
+    align-self: center;
+    margin-top: 28px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-family: Rubik;
+    font-size: 16px;
+    color:white;
+    background-color: rgb(30, 30, 245);
+    cursor: pointer;
+}
+
+.board-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(231, 124, 176);
+}
